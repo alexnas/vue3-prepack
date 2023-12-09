@@ -1,21 +1,31 @@
-# vue3-prepack
+# Vue3 Prepack
 
-This template should help get you started developing with Vue 3 in Vite.
+This Prepack represents an extended boilerplate and intended to simplify initial installation, cleaning and setup procedures of the Vue3 project. It provides popular configuration based on Vue3/Vite/Typescript/Pinia/TailwindCss dependencies set.
+The Prepack also includes initially premade layouts, which helps you modify the page design in your application.
+Also this Prepack already contains prebuilt Header and Footer.
 
-## Recommended IDE Setup
+# Adopt this extended boilerplate for the purpose of your project
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+You can easily tune this boilerplate to siplify initial phase of your project creation.
 
-## Type Support for `.vue` Imports in TS
+- Be sure you want to use the same or similar dependencies set for your app. Install the package.
+- Add all necessary dependencies.
+- Tune styles as per your design.
+- Add all functionality you need.
+- Enjoy :)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Used technologies
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- Vue 3
+- Composition API
+- Typescript
+- Vite 4
+- Pinia
+- Vue Router 4
+- TailwindCss
+- Iconify
+- Eslint
+- Prettier
 
 ## Customize configuration
 
@@ -33,7 +43,7 @@ npm install
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Compile and Minify for Production
 
 ```sh
 npm run build
@@ -44,3 +54,7 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## License
+
+Under the terms of the MIT license.
