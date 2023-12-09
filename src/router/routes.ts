@@ -10,12 +10,6 @@ const routes: Array<RouteRecordRaw> = [
     meta: { layout: DefaultLayout }
   },
   {
-    path: '/',
-    name: 'home',
-    component: () => import('@/views/HomeView.vue'),
-    meta: { layout: DefaultLayout }
-  },
-  {
     path: '/about',
     name: 'about',
     component: () => import('@/views/AboutView.vue'),
